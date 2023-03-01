@@ -67,14 +67,26 @@ textarea {
     background-color: #06AED5;
     color: white;
   }
+
+  .saveBtn::before {
+    content: "";
+    background-image: url("./floppy_save_icon.png"); /* replace with your icon path */
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px; /* adjust the spacing between the icon and the text */
+  }
+
   /* Styles for Save Button hover */
   .saveBtn i:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
   }
 /* Styles for Save icon */
-  .fa-save {
-      padding: 10px;
+  .floppysave {
+    padding: 10px;
   
   }
 
