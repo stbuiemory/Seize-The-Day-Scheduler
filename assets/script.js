@@ -1,4 +1,3 @@
-// Jamie Morris Homework-5 Day Planner
 // Moment declaration for day and time 
 moment(Date);
 $("#currentDay").text(moment().format('dddd MMMM Do YYYY, h:mm a'));
