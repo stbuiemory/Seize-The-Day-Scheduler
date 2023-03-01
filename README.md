@@ -13,9 +13,11 @@ Visit the website [here](https://stbuiemory.github.io/Seize-The-Day-Scheduler/).
 ## 💻 Installation
 
 ```sh
-🔹 We were not given a starter code and were asked to create our own day scheduler based on the sample application provided in Module 5 challenge.
+🔹 We were not given a starter code and were asked to create our own day scheduler based 
+    on the sample application provided in Module 5 challenge.
 🔹 The application needs to allow users to enter text and save in each time slot. 
-🔹 The page can be refreshed but the info entered will remain because they are recorded in local storage.
+🔹 The page can be refreshed but the info entered will remain because they are recorded 
+    in local storage.
 🔹 The user events will be color-coded based on its type (past=gray, present=green, future=pink).
 ```
 ## 🎬 Usage
