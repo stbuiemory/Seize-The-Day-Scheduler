@@ -1,32 +1,29 @@
-<h1 align="center">🧠 Do You Know Javascript Quiz 🧠</h1>
+<h1 align="center">⏰ Seize the Day Scheduler ⏰</h1>
 
 ```sh
 
-This application will test your basic knowledge of Javascript.  Good luck!
+A simple calendar application that allows a user to save events for each hour of the day.
 
 ```
 
 ## 🏠 Homepage
 
-Click [here](https://stbuiemory.github.io/Do-You-Know-Code-JavaScript/) to go to the website.
+Visit the website [here](https://stbuiemory.github.io/Seize-The-Day-Scheduler/).
 
 ## 💻 Installation
 
 ```sh
-🎯 We were not given a starter code and were asked to create our own based on the sample 
-application provided in Module 4 challenge.
-🎯 The application needs to generate a quiz that is complete with a questions, multiple-choice 
-answers, timer, and high scores.
+🔹 We were not given a starter code and were asked to create our own day scheduler based on the sample application provided in Module 5 challenge.
+🔹 The application needs to allow users to enter text and save in each time slot. 
+🔹 The page can be refreshed but the info entered will remain because they are recorded in local storage.
+🔹 The user events will be color-coded based on its type (past=gray, present=green, future=pink).
 ```
 ## 🎬 Usage
 
 ```sh
 🤩 Below is a screenshot of what the user can expect.
 ```
-![Screenshot of the final product](./assets/screenshot_of_jsquiz.jpg)
-![Screenshot of the question](./assets/screenshot_question%201.jpg)
-![Screenshot for entering score](./assets/screenshot_enterscore.jpg)
-![Screenshot of high scores](./assets/screenshot_highscores.jpg)
+![Screenshot of the final product](./assets/Screenshot%20of%20Scheduler.jpg)
 
 ## ⚙️ Testing
 
@@ -36,7 +33,7 @@ answers, timer, and high scores.
 
 ## 🤝 Contributors
 
-Questions credited to this [third-party site](https://www.tutorialspoint.com/javascript/javascript_online_quiz.htm).
+Animated icon credited to [Freepik](https://www.freepik.com) and [Flaticon](https://www.flaticon.com/).
 
 ## 📝 License
 
