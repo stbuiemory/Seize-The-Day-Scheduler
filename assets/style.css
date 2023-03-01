@@ -1,10 +1,10 @@
 /* Element Selectors */
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lobster', sans-serif;
     font-size: 16px;
     line-height: 1;
   }
-
+  
 textarea {
     background: transparent;
     border: none;
@@ -13,8 +13,28 @@ textarea {
     border-left: 1px solid black;
     padding: 10px;
   }
-
+  
   /* Class Selectors */
+ .container {
+    margin-bottom: 10%;
+  }
+
+  .description {
+    white-space: pre-wrap;
+  }
+  
+  /* Future events */
+  .future {
+    background-color: pink;
+    color: #565656;
+  }
+
+  .hour {
+    background-color: #f8f3f3;
+    color: #565656;
+    border-top: 1px dashed #565656;
+  }
+
   .jumbotron {
     text-align: center;
     background-color: transparent;
@@ -23,75 +43,50 @@ textarea {
     border-bottom: 10px solid black;
   }
   
-  .description{
-    white-space: pre-wrap;
+  /* Past events */
+  .past {
+    background-color: darkgray;
+    color: #565656;
   }
-  /* Styles for time block */
-  /* .time-block{
-    text-align: center;
-    border-radius: 15px;
+
+  /* Present events */
+  .present {
+    background-color: greenyellow;
+    color: #565656;
   }
-   */
-   /* Styles for  row */
+
   .row {
     white-space: pre-wrap;
     height: 80px;
     border-top: 1px solid white;
   }
-  /* Styles for  hour */
-  .hour {
-    background-color: #ffffff;
-    color: #000000;
-    border-top: 1px dashed #000000;
-  }
-  /* Styles for past time */
-  .past {
-    background-color: #d3d3d3;
-    color: white;
-  }
-  /* Styles for present time */
-  .present {
-    background-color: #ff6961;
-    color: white;
-  }
-  /* Styles for future time */
-  .future {
-    background-color: #77dd77;
-    color: white;
-  }
-  /* Styles for Save Button */
+
   .saveBtn {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #06AED5;
+    background-color: #9ddfd3;
     color: white;
   }
-
+  
   .saveBtn::before {
     content: "";
-    background-image: url("./floppy_save_icon.png"); /* replace with your icon path */
+    background-image: url("./floppy_save_icon.png"); 
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center; 
     display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-right: 10px; /* adjust the spacing between the icon and the text */
+    width: 30px;
+    height: 30px;
+    margin-right: 10px; 
   }
-
-  /* Styles for Save Button hover */
+  
   .saveBtn i:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
   }
-/* Styles for Save icon */
-  .floppysave {
-    padding: 10px;
-  
-  }
 
-/* Styles for container */
-  .container {
-    margin-bottom: 10%;
+ .time-block{
+    text-align: center;
+    border-radius: 15px;
   }
-  
