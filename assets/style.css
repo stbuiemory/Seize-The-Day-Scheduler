@@ -14,28 +14,28 @@ textarea {
     padding: 10px;
   }
   
-  /* Class Selectors */
- .container {
+/* Class Selectors */
+.container {
     margin-bottom: 10%;
   }
 
-  .description {
+.description {
     white-space: pre-wrap;
   }
   
-  /* Future events */
-  .future {
+/* Future events */
+.future {
     background-color: pink;
     color: #565656;
   }
 
-  .hour {
+.hour {
     background-color: #f8f3f3;
     color: #565656;
     border-top: 1px dashed #565656;
   }
 
-  .jumbotron {
+.jumbotron {
     text-align: center;
     background-color: transparent;
     color: black;
@@ -43,25 +43,25 @@ textarea {
     border-bottom: 10px solid black;
   }
   
-  /* Past events */
-  .past {
+/* Past events */
+.past {
     background-color: darkgray;
     color: #565656;
   }
 
-  /* Present events */
-  .present {
+/* Present events */
+.present {
     background-color: greenyellow;
     color: #565656;
   }
 
-  .row {
+.row {
     white-space: pre-wrap;
     height: 80px;
     border-top: 1px solid white;
   }
 
-  .saveBtn {
+.saveBtn {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -69,7 +69,7 @@ textarea {
     color: white;
   }
   
-  .saveBtn::before {
+.saveBtn::before {
     content: "";
     background-image: url("./floppy_save_icon.png"); 
     background-repeat: no-repeat;
@@ -81,12 +81,12 @@ textarea {
     margin-right: 10px; 
   }
   
-  .saveBtn i:hover {
+.saveBtn i:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
   }
 
- .time-block{
+.time-block{
     text-align: center;
     border-radius: 15px;
   }

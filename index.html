@@ -31,10 +31,8 @@
         <p id="currentDay" class="lead"></p>
     </header>
 
-
-
     <div class="container">
-        <!-- 9AM Timeblocks go here -->
+        <!-- Time Block 9AM -->
         <div class="input-group input-group-lg" data-hour="9">
           <div class="input-group-prepend">
             <!-- Added time-block class -->
@@ -44,9 +42,7 @@
           <button class="btn saveBtn"><i class="floppysave"></i></button>
         </div>
 
-
-
-        <!-- 10AM Timeblocks go here -->
+        <!-- Time Block 10AM -->
         <div class="input-group input-group-lg" data-hour="10">
             <div class="input-group-prepend">
                 <span class="input-group-text time-block block2"></span>
@@ -55,7 +51,7 @@
             <button class="btn saveBtn"><i class="floppysave"></i></button>
        
         </div>
-        <!-- 11AM Timeblocks go here -->
+        <!-- Time Block 11AM -->
         <div class="input-group input-group-lg" data-hour="11">
             <div class="input-group-prepend">
                 <span class="input-group-text time-block block3"></span>
@@ -64,7 +60,7 @@
             <button class="btn saveBtn"><i class="floppysave"></i></button>
        
         </div>
-        <!-- 12PM Timeblocks go here -->
+        <!-- Time Block 12PM -->
         <div class="input-group input-group-lg" data-hour="12">
             <div class="input-group-prepend">
                 <span class="input-group-text time-block block4"></span>
@@ -73,7 +69,7 @@
             <button class="btn saveBtn"><i class="floppysave"></i></button>
        
         </div>
-        <!-- 1PM Timeblocks go here -->
+        <!-- Time Block 1PM -->
         <div class="input-group input-group-lg" data-hour="1">
             <div class="input-group-prepend">
                 <span class="input-group-text time-block block5"></span>
@@ -82,7 +78,7 @@
             <button class="btn saveBtn"><i class="floppysave"></i></button>
        
         </div>
-        <!-- 2PM Timeblocks go here -->
+        <!-- Time Block 2PM -->
         <div class="input-group input-group-lg" data-hour="2">
             <div class="input-group-prepend">
                 <span class="input-group-text time-block block6"></span>
@@ -91,7 +87,7 @@
             <button class="btn saveBtn"><i class="floppysave"></i></button>
        
         </div>
-        <!-- 3PM Timeblocks go here -->
+        <!-- Time Block 3PM -->
         <div class="input-group input-group-lg" data-hour="3">
             <div class="input-group-prepend">
                 <span class="input-group-text time-block block7"></span>
@@ -100,7 +96,7 @@
             <button class="btn saveBtn"><i class="floppysave"></i></button>
        
         </div>
-        <!-- 4PM Timeblocks go here -->
+        <!-- Time Block 4PM -->
         <div class="input-group input-group-lg" data-hour="4">
             <div class="input-group-prepend">
                 <span class="input-group-text time-block block8"></span>
@@ -109,7 +105,7 @@
             <button class="btn saveBtn"><i class="floppysave"></i></button>
        
         </div>
-        <!-- 5PM Timeblocks go here -->
+        <!-- Time Block 5PM -->
         <div class="input-group input-group-lg" data-hour="5">
             <div class="input-group-prepend">
                 <span class="input-group-text time-block block9"></span>
@@ -120,10 +116,9 @@
         </div>
     </div>
 
-
     <!-- JQuery -->
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 
     <!-- MomentJS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
@@ -138,16 +133,6 @@
             from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
           </footer>
     </div>
-
-    <script>
-        $(document).ready(function() {
-            // Display current day and time
-            $("#currentDay").html(moment().format("dddd, MMMM Do") + "<br>" + moment().format("h:mm:ss a"));
-        });
-    </script>
-    
-    <p id="currentDay"></p>
-      
     
 </body>
 
