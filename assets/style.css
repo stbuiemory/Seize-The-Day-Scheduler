@@ -71,7 +71,7 @@ textarea {
   
 .saveBtn::before {
     content: "";
-    background-image: url("./floppy_save_icon.png"); 
+    background-image: url("./floppy_save_icon.gif"); 
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center; 
@@ -89,4 +89,10 @@ textarea {
 .time-block{
     text-align: center;
     border-radius: 15px;
+  }
+
+
+
+  .saveBtn.clicked::before {
+    animation: none;
   }
