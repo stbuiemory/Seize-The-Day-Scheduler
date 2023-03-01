@@ -7,7 +7,6 @@ A simple calendar application that allows a user to save events for each hour of
 ```
 
 ## 🏠 Homepage
-
 Visit the website [here](https://stbuiemory.github.io/Seize-The-Day-Scheduler/).
 
 
